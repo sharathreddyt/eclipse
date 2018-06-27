@@ -1,0 +1,7 @@
+INDEX VERSION 1.130
+/Users/sharatht/Documents/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/282350455.index
+/spring3-mvc-maven-xml-hello-world/src/main/java
+/Users/sharatht/Documents/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/833521031.index
+/spring3-mvc-maven-xml-hello-world/src/test/java
+/Users/sharatht/Documents/eclipse/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2232898787.index
+/general/src/main/resources

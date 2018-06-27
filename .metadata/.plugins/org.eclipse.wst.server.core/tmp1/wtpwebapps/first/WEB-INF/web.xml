@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>first</display-name>
+   
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+ <!--  when there are no annotations(@WebServlet("/Hello")) in the respective java files then the below code should be used 
+  
+  servlet name can be anything
+  servlet class must be with package name which starts from src folder.
+  In servlet mapping tag url pattern should be from root
+  there should always be a class for '/' elase its going to show 404 not found.
+  if there is no class defined for '/' then use welcomefilelist tag.This tag 
+  will show up initially for '/' route.
+  
+   -->
+  
+  <!--
+  <servlet>
+    <servlet-name>sharath</servlet-name>
+    <servlet-class>com.sharath.Hello</servlet-class>
+ 
+  </servlet>
+  <servlet>       <servlet-name>chandra</servlet-name>
+    <servlet-class>com.sharath.World</servlet-class></servlet>
+  <servlet-mapping>
+    <servlet-name>sharath</servlet-name>
+    <url-pattern>/Hello</url-pattern>
+    
+  </servlet-mapping>
+  <servlet-mapping>
+   <servlet-name>chandra</servlet-name>
+     <url-pattern>/World</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>
